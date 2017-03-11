@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_bc5573f18c30a14c1ec6ad94cba1df448226c9a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_d867090e3f9f457d80470ba87294c375d0b19a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.google.android.support\wearable\2.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac293d0ffbcbf7333f3a88268b702a33e5c7d2e8">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\com.google.android.support-wearable-2.0.0-beta1_5ea8de99087dbed80a44eb98ffb1ffd412a9d147.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_ed36f017483111ced9feaa832a290feb3effde1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.0.1_9752ad65b5a2e89a5baf1034028af367dc5a9104.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_87708cac7b5cf609fb88a7645a91fd1a29a8f5ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_63ee11c225fa6d66d57e44e874440391f81630c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-10.0.1_6ff59b182cbb0017edb5879385a7e712ba267866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Ali\Documents\Recorder\wear\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_77305353763afb67fedcf6a456cccab291d7691c.jar" />
+    </item>
+
+</items>

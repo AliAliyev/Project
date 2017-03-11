@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/play"
+        android:title="@string/play"/>
+
+    <item
+        android:id="@+id/edit"
+        android:title="@string/edit"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"/>
+
+    <item
+        android:id="@+id/sync"
+        android:title="@string/sync_to_cloud"/>
+
+    <item
+        android:id="@+id/Details"
+        android:title="@string/details"/>
+
+    <item
+        android:id="@+id/Delete"
+        android:title="@string/delete"/>
+</menu>

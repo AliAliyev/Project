@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/card_default_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="No recordings"
+        android:id="@+id/empty"
+        android:textAlignment="center"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout" >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/trackListView"
+        android:choiceMode="multipleChoiceModal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/relativeLayout"
+        android:cacheColorHint="@color/orange"
+        android:divider="#adb8c2"
+        android:dividerHeight="1dp"
+        android:smoothScrollbar="true"
+        android:clickable="false" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/relativeLayout"
+        android:background="#f039403e"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="120dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/recording"
+            android:id="@+id/track_name"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/track_seekbar"
+            android:layout_above="@+id/total_track_duration"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/total_track_duration"
+            android:paddingTop="5dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:mirrorForRtl="false"
+            android:indeterminate="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/_00_00"
+            android:id="@+id/total_track_duration"
+            android:textAlignment="center"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="#ffffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RelativeOverlap"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/_00_00"
+            android:id="@+id/current_track_duration"
+            android:textAlignment="center"
+            android:paddingRight="10dp"
+            android:textColor="#ffffffff"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/track_seekbar"
+            android:layout_alignParentStart="true"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/next"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/total_track_duration"
+            android:layout_marginBottom="15dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_media_ff"
+            android:contentDescription="@string/next" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/playButton"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignBottom="@+id/next"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_media_play"
+            android:contentDescription="@string/playButton" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/pauseButton"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignBottom="@+id/next"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_media_pause"
+            android:contentDescription="@string/pause" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/previous"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_media_rew"
+            android:contentDescription="@string/previous"
+            android:layout_alignBottom="@+id/playButton"
+            android:layout_alignEnd="@+id/current_track_duration" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

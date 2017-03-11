@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear_round"
+    android:background="@color/card_default_background">
+
+    <Button
+        android:text="@string/save"
+        android:layout_width="55dp"
+        android:id="@+id/saveButton"
+        android:textAppearance="@android:style/Holo.Light.ButtonBar"
+        android:textColor="@color/ambient_mode_text"
+        android:background="@color/orange"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_toEndOf="@+id/chronometer"
+        android:layout_marginStart="10dp" />
+
+    <ImageButton
+        android:src="@drawable/roundbutton"
+        android:id="@+id/imageButton"
+        style="@android:style/Holo.Light.ButtonBar"
+        android:clickable="true"
+        android:contentDescription="@string/save_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="0dp" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@android:string/cancel"
+        android:id="@+id/cancelButton"
+        android:textAppearance="@android:style/Holo.Light.ButtonBar"
+        android:layout_width="55dp"
+        android:textColor="@color/ambient_mode_text"
+        android:background="@color/orange"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_toStartOf="@+id/chronometer"
+        android:layout_marginEnd="10dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:max="8000"
+        android:progressDrawable="@drawable/progressbar"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

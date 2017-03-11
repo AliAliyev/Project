@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@color/common_google_signin_btn_text_light_disabled">
+
+    <TextView
+        android:text="@string/file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fileName"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/sample_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/date_recorded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateRecorded"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/sat_04_feb_2017_07_36_pm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/file_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filePath"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/sdcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/path"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Description"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/no_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Duration"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/_00_00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/duration"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Size"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/_1_5_mb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/size"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/format"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Format"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/wav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/format"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/quality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Quality"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quality"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:text="@string/recorded_with"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RecordedWith"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/handheld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recordedWith"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <View android:background="@color/black_54p"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
+</ScrollView>

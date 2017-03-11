@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Recorder</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="recording_paused">Recording paused</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_recorder">RecorderActivity</string>
+    <string name="play">Play</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="sync_to_cloud">Sync to Cloud</string>
+    <string name="details">Details</string>
+    <string name="delete">Delete</string>
+    <string name="recording_001">Recording 001</string>
+    <string name="description_nLine1">Description\nLine1</string>
+    <string name="content_description">Content Description</string>
+    <string name="image_view">Image View</string>
+    <string name="Size">Size</string>
+    <string name="enter_description">Enter description</string>
+    <string name="enter_filename">Enter filename</string>
+    <string name="recording">Recording</string>
+    <string name="previous">Previous</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+    <string name="playButton">Play</string>
+    <string name="_00_00">00:00</string>
+    <string name="file_name">File name:</string>
+    <string name="sample_file_name">Sample file name</string>
+    <string name="date_recorded">Date recorded:</string>
+    <string name="sat_04_feb_2017_07_36_pm">Sat, 04 Feb 2017, 07:36 pm</string>
+    <string name="file_path">File location:</string>
+    <string name="sdcard">/sdcard</string>
+    <string name="description">Description:</string>
+    <string name="no_description">No description</string>
+    <string name="duration">Duration:</string>
+    <string name="size">Size:</string>
+    <string name="_1_5_mb">1.5 MB</string>
+    <string name="format">Format:</string>
+    <string name="wav">Wav</string>
+    <string name="quality">Quality:</string>
+    <string name="high">High</string>
+    <string name="recorded_with">Recorded with:</string>
+    <string name="handheld">Handheld</string>
+    <string name="length">Length</string>
+    <string name="n_n_n">\n\n\n</string>
+    <string name="title_activity_example">Example</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
